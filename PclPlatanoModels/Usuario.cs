@@ -58,5 +58,16 @@ namespace PclPlatanoModels
 
         [MaxLength(100)]
         public string EnderecoEstado { get; set; }
+
+        [Column("dtCadastro")]
+        public DateTime DtCadastro { get; set; }
+
+        [Column("dtAlteracao")]
+        public DateTime DtAlteracao { get; set; }
+
+        [Column("idUsuarioAlteracao")]
+        public int IdUsuarioAlteracao { get; set; }
+
+
     }
 }
