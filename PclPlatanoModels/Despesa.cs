@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PclPlatanoModels
 {
-    [Table("despesa")]
+    [Table("despesa")] //Forçando um conflito aula uso de branch
     class Despesa
     {
         [Key]
